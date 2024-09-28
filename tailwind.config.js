@@ -24,7 +24,8 @@ export default {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
-        primaryColor: ["#1ECB15"],
+        primaryColor: "#1ECB15",
+        secondaryColor: "#179510",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
@@ -51,6 +52,9 @@ export default {
           4: "hsl(var(--chart-4))",
           5: "hsl(var(--chart-5))",
         },
+      },
+      boxShadow: {
+        primaryShadow: "0 8px 16px 0 rgba(28, 203, 21, 0.8)",
       },
       fontFamily: {
         title: ['"Outfit"', "sans-serif"],
