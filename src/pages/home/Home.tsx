@@ -1,7 +1,9 @@
+import Banner from "@/components/header/Banner";
+
 const Home = () => {
   return (
     <div>
-      <h2>Welocome to Rentaly</h2>
+      <Banner />
     </div>
   );
 };
