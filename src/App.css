@@ -1,0 +1,18 @@
+/* Custom CSS for pagination bullet size and color */
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-bullet {
+  width: 16px !important;
+  height: 16px !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  border-radius: 50% !important;
+  margin: 0 4px; /* Space between bullets */
+}
+
+.custom-bullet-active {
+  background-color: #ff0000 !important;
+  opacity: 1 !important;
+}

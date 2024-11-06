@@ -36,7 +36,7 @@ const Banner = () => {
         speed={3000}
         allowTouchMove={false}
         fadeEffect={{ crossFade: true }}
-        className="h-[60vh] md:h-[100vh] w-full"
+        className="h-[100vh] w-full"
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
@@ -44,7 +44,7 @@ const Banner = () => {
               <img
                 src={slide.img}
                 alt="Slide image"
-                className="object-cover w-full h-full"
+                className="object-fill md:object-cover w-full h-full"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50"></div>
             </div>
@@ -53,8 +53,8 @@ const Banner = () => {
       </Swiper>
 
       {/* Centered Content inside the black opacity div */}
-      <div className="absolute inset-0 flex items-center justify-center z-20">
-        <div className="w-full max-w-4xl p-10 bg-black bg-opacity-60 rounded-md text-white text-center">
+      <div className="absolute inset-0 flex   items-center   justify-center z-20">
+        <div className="w-full max-w-4xl  md:h-auto p-10 bg-black bg-opacity-0 md:bg-opacity-60 md:rounded-md text-white text-center">
           {/* Banner Text */}
           <div className="mb-8">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
@@ -66,7 +66,7 @@ const Banner = () => {
           </div>
 
           {/* Search Form */}
-          <div>
+          <div className="hidden md:block">
             <SearchForm />
           </div>
 
