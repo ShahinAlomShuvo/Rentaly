@@ -1,8 +1,8 @@
 import { useGetCarsQuery } from "@/redux/api/car/carApi";
-import SectionHeader from "../layouts/SectionHeader";
-import Card from "../layouts/Card";
+import SectionHeader from "../../layouts/SectionHeader";
+import Card from "../../layouts/Card";
 import { TCarCard } from "@/type";
-import Container from "../container/Container";
+import Container from "../../container/Container";
 
 const Features = () => {
   const { data, isLoading } = useGetCarsQuery(null);
