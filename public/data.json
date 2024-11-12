@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Tesla Model S",
+    "price": 79999,
+    "img": "https://www.madebydesignesia.com/themes/rentaly/images/cars/jeep-renegade.jpg",
+    "title": "Tesla Model S 2024",
+    "desc": "The Tesla Model S offers an incredible blend of performance, range, and advanced technology with a sleek design."
+  },
+  {
+    "id": 2,
+    "name": "BMW M3",
+    "price": 69999,
+    "img": "https://www.madebydesignesia.com/themes/rentaly/images/cars/bmw-m5.jpg",
+    "title": "BMW M3 2024",
+    "desc": "The BMW M3 is a high-performance sedan with sharp handling, a powerful engine, and a luxurious interior."
+  },
+  {
+    "id": 3,
+    "name": "Audi Q8",
+    "price": 74999,
+    "img": "https://www.madebydesignesia.com/themes/rentaly/images/cars/ferrari-enzo.jpg",
+    "title": "Audi Q8 2024",
+    "desc": "The Audi Q8 blends coupe-like styling with SUV practicality and is equipped with advanced technology and a spacious cabin."
+  },
+  {
+    "id": 4,
+    "name": "Ford Mustang",
+    "price": 55999,
+    "img": "https://www.madebydesignesia.com/themes/rentaly/images/cars/ferrari-enzo.jpg",
+    "title": "Ford Mustang 2024",
+    "desc": "The Ford Mustang 2024 is a muscle car icon, offering thrilling performance, bold styling, and modern features."
+  }
+]

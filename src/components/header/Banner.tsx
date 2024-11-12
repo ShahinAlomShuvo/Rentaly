@@ -73,7 +73,7 @@ const Banner = () => {
           {/* Button */}
           <div className="px-4">
             <Link to="/booking">
-              <Button className="bg-primaryColor hover:shadow-primary hover:bg-primaryColor font-semibold w-full">
+              <Button className="bg-primaryColor hover:shadow-primaryColor hover:bg-primaryColor font-semibold w-full">
                 Book Now
               </Button>
             </Link>
