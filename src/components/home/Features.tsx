@@ -15,7 +15,7 @@ const Features = () => {
       {isLoading ? (
         <h1>Loading...</h1>
       ) : (
-        <div className="grid grid-cols-4 gap-4 py-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-4 py-10">
           {data?.map((car: TCarCard) => (
             <Card key={car.id} {...car} />
           ))}
